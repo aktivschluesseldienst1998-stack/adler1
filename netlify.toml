@@ -1,0 +1,128 @@
+[build]
+command = "npx next build"
+publish = ".next"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
+# Permanente Weiterleitungen für alte Kurz-URLs (Bezirke)
+[[redirects]]
+  from = "/mitte"
+  to = "/bezirke/mitte"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/friedrichshain-kreuzberg"
+  to = "/bezirke/friedrichshain-kreuzberg"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pankow"
+  to = "/bezirke/pankow"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/charlottenburg-wilmersdorf"
+  to = "/bezirke/charlottenburg-wilmersdorf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/spandau"
+  to = "/bezirke/spandau"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/steglitz-zehlendorf"
+  to = "/bezirke/steglitz-zehlendorf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tempelhof-schoeneberg"
+  to = "/bezirke/tempelhof-schoeneberg"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neukoelln"
+  to = "/bezirke/neukoelln"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/treptow-koepenick"
+  to = "/bezirke/treptow-koepenick"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/marzahn-hellersdorf"
+  to = "/bezirke/marzahn-hellersdorf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lichtenberg"
+  to = "/bezirke/lichtenberg"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/reinickendorf"
+  to = "/bezirke/reinickendorf"
+  status = 301
+  force = true
+
+# Permanente Weiterleitungen für alte Kurz-URLs (Leistungen)
+[[redirects]]
+  from = "/tueroeffnung"
+  to = "/leistungen/tueroeffnung"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/schlosswechsel"
+  to = "/leistungen/schlosswechsel"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/einbruchschaden"
+  to = "/leistungen/einbruchschaden"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/einbruchschaeden"
+  to = "/leistungen/einbruchschaden"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/einbruchschutz"
+  to = "/leistungen/einbruchschutz"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zusaetzliche-schloesser"
+  to = "/leistungen/zusaetzliche-schloesser"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hochsicherheitszylinder"
+  to = "/leistungen/hochsicherheitszylinder"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sicherheitszylinder"
+  to = "/leistungen/hochsicherheitszylinder"
+  status = 301
+  force = true
