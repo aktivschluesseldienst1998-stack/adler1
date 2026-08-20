@@ -15,7 +15,7 @@ export const business = {
   chamber: 'IHK Berlin',
   responseTime: 'max. 30 Minuten',
   rating: 4.9,
-  reviewCount: 61,
+  reviewCount: 54,
   reviewSources: 'Google, golocal & Meinungsmeister',
   googleMapsUrl: 'https://maps.app.goo.gl/2AmEZvicUidTwT5C8',
   googleMapsPlaceId: '0x47a85100599bec71:0xdabc09ceda11d5a6',
